@@ -1,0 +1,86 @@
+{
+  "parent": "tropicalupdate:tropical_armory/get_topaz",
+  "criteria": {
+    "topaz_sword": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tropicalupdate:topaz_sword"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "topaz_pickaxe": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tropicalupdate:topaz_pickaxe"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "topaz_axe": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tropicalupdate:topaz_axe"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "topaz_shovel": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tropicalupdate:topaz_shovel"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.tropical_armory.get_topaz_tools.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "tropicalupdate:topaz_axe"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.tropical_armory.get_topaz_tools.title"
+    }
+  },
+  "requirements": [
+    [
+      "topaz_sword"
+    ],
+    [
+      "topaz_pickaxe"
+    ],
+    [
+      "topaz_axe"
+    ],
+    [
+      "topaz_shovel"
+    ]
+  ],
+  "rewards": {
+    "experience": 180
+  },
+  "sends_telemetry_event": true
+}

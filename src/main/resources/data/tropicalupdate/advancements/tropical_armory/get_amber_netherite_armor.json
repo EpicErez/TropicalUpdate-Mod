@@ -1,0 +1,86 @@
+{
+  "parent": "tropicalupdate:tropical_armory/get_amber_armor",
+  "criteria": {
+    "amber_netherite_boots": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tropicalupdate:amber_netherite_boots"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "amber_netherite_leggings": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tropicalupdate:amber_netherite_leggings"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "amber_netherite_chestplate": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tropicalupdate:amber_netherite_chestplate"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "amber_netherite_helmet": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tropicalupdate:amber_netherite_helmet"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.tropical_armory.get_amber_netherite_armor.description"
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "item": "tropicalupdate:amber_netherite_chestplate"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.tropical_armory.get_amber_netherite_armor.title"
+    }
+  },
+  "requirements": [
+    [
+      "amber_netherite_helmet"
+    ],
+    [
+      "amber_netherite_chestplate"
+    ],
+    [
+      "amber_netherite_leggings"
+    ],
+    [
+      "amber_netherite_boots"
+    ]
+  ],
+  "rewards": {
+    "experience": 900
+  },
+  "sends_telemetry_event": true
+}

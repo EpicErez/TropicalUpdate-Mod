@@ -1,0 +1,41 @@
+{
+  "parent": "tropicalupdate:tropical_culinary/pineapple_cake",
+  "criteria": {
+    "slice_pineapple_cake": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tropicalupdate:pineapple_cake_slice"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.tropical_culinary.slice_pineapple_cake.description"
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "item": "tropicalupdate:pineapple_cake_slice"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.tropical_culinary.slice_pineapple_cake.title"
+    }
+  },
+  "requirements": [
+    [
+      "slice_pineapple_cake"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  },
+  "sends_telemetry_event": true
+}

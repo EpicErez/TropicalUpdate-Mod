@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/crop",
+  "textures": {
+    "crop": "tropicalupdate:block/pineapple_block_stage0"
+  }
+}

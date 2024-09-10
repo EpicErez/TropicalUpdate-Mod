@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "tropicalupdate:block/mango_slab"
+    },
+    "type=double": {
+      "model": "tropicalupdate:block/mango_planks"
+    },
+    "type=top": {
+      "model": "tropicalupdate:block/mango_slab_top"
+    }
+  }
+}

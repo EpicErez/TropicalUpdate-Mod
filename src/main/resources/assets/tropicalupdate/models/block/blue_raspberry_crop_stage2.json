@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "tropicalupdate:block/blue_raspberry_crop_stage2"
+  }
+}

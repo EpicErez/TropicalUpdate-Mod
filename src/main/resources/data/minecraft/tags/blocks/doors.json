@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:wooden_doors",
+    "tropicalupdate:azure_door",
+    "tropicalupdate:mango_door",
+    "tropicalupdate:mithril_door",
+    "minecraft:iron_door"
+  ]
+}

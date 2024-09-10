@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "tropicalupdate:block/tropical_stone_bricks",
+    "side": "tropicalupdate:block/tropical_stone_bricks",
+    "top": "tropicalupdate:block/tropical_stone_bricks"
+  }
+}

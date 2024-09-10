@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "tropicalupdate:block/tropical_stone_slab"
+    },
+    "type=double": {
+      "model": "tropicalupdate:block/tropical_stone"
+    },
+    "type=top": {
+      "model": "tropicalupdate:block/tropical_stone_slab_top"
+    }
+  }
+}

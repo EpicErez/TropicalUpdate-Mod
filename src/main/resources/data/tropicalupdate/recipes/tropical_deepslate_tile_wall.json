@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "doors",
+  "key": {
+    "#": {
+      "item": "tropicalupdate:tropical_deepslate_tiles"
+    }
+  },
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 6,
+    "item": "tropicalupdate:tropical_deepslate_tile_wall"
+  },
+  "show_notification": true
+}

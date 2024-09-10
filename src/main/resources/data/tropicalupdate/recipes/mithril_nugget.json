@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "mithril_ingot",
+  "ingredients": [
+    {
+      "item": "tropicalupdate:mithril_ingot"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "tropicalupdate:mithril_nugget"
+  }
+}

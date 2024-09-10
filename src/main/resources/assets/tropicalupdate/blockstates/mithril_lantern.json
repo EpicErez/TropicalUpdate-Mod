@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "hanging=false": {
+      "model": "tropicalupdate:block/mithril_lantern"
+    },
+    "hanging=true": {
+      "model": "tropicalupdate:block/mithril_lantern_hanging"
+    }
+  }
+}

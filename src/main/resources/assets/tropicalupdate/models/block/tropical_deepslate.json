@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "tropicalupdate:block/tropical_deepslate_top",
+    "side": "tropicalupdate:block/tropical_deepslate"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "": [
+      {
+        "model": "tropicalupdate:block/tropical_stone"
+      },
+      {
+        "model": "tropicalupdate:block/tropical_stone_mirrored"
+      },
+      {
+        "model": "tropicalupdate:block/tropical_stone",
+        "y": 180
+      },
+      {
+        "model": "tropicalupdate:block/tropical_stone_mirrored",
+        "y": 180
+      }
+    ]
+  }
+}

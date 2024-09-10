@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "tropicalupdate:tropical_dirt",
+    "tropicalupdate:tropical_dirt_path",
+    "tropicalupdate:tropical_farmland",
+    "tropicalupdate:tropical_grass_block",
+    "tropicalupdate:turquoise_concrete_powder"
+  ]
+}

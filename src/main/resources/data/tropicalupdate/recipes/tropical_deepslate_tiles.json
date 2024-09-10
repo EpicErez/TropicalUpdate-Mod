@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "tropical_deepslate",
+  "key": {
+    "#": {
+      "item": "tropicalupdate:tropical_deepslate_bricks"
+    }
+  },
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "result": {
+    "count": 4,
+    "item": "tropicalupdate:tropical_deepslate_tiles"
+  },
+  "show_notification": true
+}

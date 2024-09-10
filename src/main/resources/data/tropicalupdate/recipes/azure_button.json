@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "doors",
+  "key": {
+    "#": {
+      "item": "tropicalupdate:azure_planks"
+    }
+  },
+  "pattern": [
+    "#"
+  ],
+  "result": {
+    "count": 1,
+    "item": "tropicalupdate:azure_button"
+  },
+  "show_notification": true
+}

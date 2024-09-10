@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "wooden_fence",
+  "key": {
+    "#": {
+      "item": "minecraft:chain"
+    },
+    "W": {
+      "item": "tropicalupdate:stripped_azure_log"
+    }
+  },
+  "pattern": [
+    "# #",
+    "WWW",
+    "WWW"
+  ],
+  "result": {
+    "count": 6,
+    "item": "tropicalupdate:azure_hanging_sign"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "doors",
+  "key": {
+    "#": {
+      "item": "tropicalupdate:cobbled_tropical_deepslate"
+    }
+  },
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "result": {
+    "count": 4,
+    "item": "tropicalupdate:polished_tropical_deepslate"
+  },
+  "show_notification": true
+}

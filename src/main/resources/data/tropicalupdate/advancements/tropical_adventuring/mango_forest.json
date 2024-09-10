@@ -1,0 +1,45 @@
+{
+  "parent": "tropicalupdate:tropical_adventuring/root",
+  "criteria": {
+    "tropicalupdate:mango_forest": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "tropicalupdate:mango_forest"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.tropical_adventuring.mango_forest.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "tropicalupdate:mango_log"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.tropical_adventuring.mango_forest.title"
+    }
+  },
+  "requirements": [
+    [
+      "tropicalupdate:mango_forest"
+    ]
+  ],
+  "rewards": {
+    "experience": 200
+  },
+  "sends_telemetry_event": true
+}

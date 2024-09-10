@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "tropicalupdate:block/turquoise_glazed_terracotta",
+      "y": 270
+    },
+    "facing=north": {
+      "model": "tropicalupdate:block/turquoise_glazed_terracotta",
+      "y": 180
+    },
+    "facing=south": {
+      "model": "tropicalupdate:block/turquoise_glazed_terracotta"
+    },
+    "facing=west": {
+      "model": "tropicalupdate:block/turquoise_glazed_terracotta",
+      "y": 90
+    }
+  }
+}

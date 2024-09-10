@@ -1,0 +1,44 @@
+{
+	"schemaVersion": 1,
+	"id": "tropicalupdate",
+	"version": "${version}",
+	"name": "TropicalUpdate",
+	"description": "This is a new vanilla style update that mojang would do",
+	"authors": [
+		"Erez"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/tropicalupdate/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.erez.tropicalupdate.TropicalUpdate"
+		],
+		"client": [
+			"net.erez.tropicalupdate.TropicalUpdateClient"
+		],
+		"fabric-datagen": [
+			"net.erez.tropicalupdate.TropicalUpdateDataGenerator"
+		],
+		"terrablender": [
+			"net.erez.tropicalupdate.world.biome.ModTerrablenderAPI"
+		]
+	},
+	"mixins": [
+		"tropicalupdate.mixins.json"
+
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

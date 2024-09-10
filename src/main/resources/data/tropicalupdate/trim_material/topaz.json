@@ -1,0 +1,12 @@
+{
+  "asset_name": "topaz",
+  "description": {
+    "color": "#FFC87C",
+    "translate": "trim_material.tropicalupdate.topaz"
+  },
+  "ingredient": "tropicalupdate:topaz",
+  "item_model_index": 0.1,
+  "override_armor_materials": {
+    "topaz": "topaz_darker"
+  }
+}

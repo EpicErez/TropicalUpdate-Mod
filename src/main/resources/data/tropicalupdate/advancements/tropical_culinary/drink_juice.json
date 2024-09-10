@@ -1,0 +1,50 @@
+{
+  "parent": "tropicalupdate:tropical_culinary/root",
+  "criteria": {
+    "pineapple_juice": {
+      "conditions": {
+        "item": {
+          "items": [
+            "tropicalupdate:pineapple_juice"
+          ]
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "tropical_fruit_juice": {
+      "conditions": {
+        "item": {
+          "items": [
+            "tropicalupdate:tropical_fruit_juice"
+          ]
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.tropical_culinary.drink_juice.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "tropicalupdate:tropical_fruit_juice"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.tropical_culinary.drink_juice.title"
+    }
+  },
+  "requirements": [
+    [
+      "pineapple_juice",
+      "tropical_fruit_juice"
+    ]
+  ],
+  "rewards": {
+    "experience": 50
+  },
+  "sends_telemetry_event": true
+}

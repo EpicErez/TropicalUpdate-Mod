@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "tropicalupdate:block/polished_tropical_deepslate",
+    "side": "tropicalupdate:block/polished_tropical_deepslate",
+    "top": "tropicalupdate:block/polished_tropical_deepslate"
+  }
+}

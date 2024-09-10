@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_left",
+  "textures": {
+    "bottom": "tropicalupdate:block/azure_door_bottom",
+    "top": "tropicalupdate:block/azure_door_top"
+  }
+}

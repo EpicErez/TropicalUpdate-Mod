@@ -1,0 +1,86 @@
+{
+  "parent": "tropicalupdate:tropical_armory/get_mithril_ingot",
+  "criteria": {
+    "mithril_sword": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tropicalupdate:mithril_sword"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "mithril_pickaxe": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tropicalupdate:mithril_pickaxe"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "mithril_shovel": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tropicalupdate:mithril_shovel"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "mithril_axe": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tropicalupdate:mithril_axe"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.tropical_armory.get_mithril_tools.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "tropicalupdate:mithril_sword"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.tropical_armory.get_mithril_tools.title"
+    }
+  },
+  "requirements": [
+    [
+      "mithril_sword"
+    ],
+    [
+      "mithril_axe"
+    ],
+    [
+      "mithril_shovel"
+    ],
+    [
+      "mithril_pickaxe"
+    ]
+  ],
+  "rewards": {
+    "experience": 20
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,9 @@
+{
+  "asset_name": "amber",
+  "description": {
+    "color": "#e0654f",
+    "translate": "trim_material.tropicalupdate.amber"
+  },
+  "ingredient": "tropicalupdate:amber",
+  "item_model_index": 0.4
+}

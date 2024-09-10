@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "tropicalupdate:amber"
+  },
+  "base": {
+    "item": "tropicalupdate:topaz_boots"
+  },
+  "result": {
+    "item": "tropicalupdate:amber_boots"
+  },
+  "template": {
+    "item": "tropicalupdate:amber_upgrade_template"
+  }
+}

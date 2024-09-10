@@ -1,0 +1,169 @@
+{
+  "parent": "tropicalupdate:tropical_culinary/pineapple_stew",
+  "criteria": {
+    "pineapple_juice": {
+      "conditions": {
+        "item": {
+          "items": [
+            "tropicalupdate:pineapple_juice"
+          ]
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "pineapple_stew": {
+      "conditions": {
+        "item": {
+          "items": [
+            "tropicalupdate:pineapple_stew"
+          ]
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "pineapple": {
+      "conditions": {
+        "item": {
+          "items": [
+            "tropicalupdate:pineapple"
+          ]
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "pineapple_cake_slice": {
+      "conditions": {
+        "item": {
+          "items": [
+            "tropicalupdate:pineapple_cake_slice"
+          ]
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "pineapple_slice": {
+      "conditions": {
+        "item": {
+          "items": [
+            "tropicalupdate:pineapple_slice"
+          ]
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "salmon_stew": {
+      "conditions": {
+        "item": {
+          "items": [
+            "tropicalupdate:salmon_stew"
+          ]
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "mango": {
+      "conditions": {
+        "item": {
+          "items": [
+            "tropicalupdate:mango"
+          ]
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "tropical_fruits": {
+      "conditions": {
+        "item": {
+          "items": [
+            "tropicalupdate:tropical_fruits"
+          ]
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "blue_raspberry": {
+      "conditions": {
+        "item": {
+          "items": [
+            "tropicalupdate:blue_raspberry"
+          ]
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "chicken_stew": {
+      "conditions": {
+        "item": {
+          "items": [
+            "tropicalupdate:chicken_stew"
+          ]
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "tropical_fruit_juice": {
+      "conditions": {
+        "item": {
+          "items": [
+            "tropicalupdate:tropical_fruit_juice"
+          ]
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.tropical_culinary.eat_everything.description"
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "item": "tropicalupdate:salmon_stew"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.tropical_culinary.eat_everything.title"
+    }
+  },
+  "requirements": [
+    [
+      "pineapple_juice"
+    ],
+    [
+      "chicken_stew"
+    ],
+    [
+      "tropical_fruits"
+    ],
+    [
+      "blue_raspberry"
+    ],
+    [
+      "pineapple_slice"
+    ],
+    [
+      "pineapple_cake_slice"
+    ],
+    [
+      "salmon_stew"
+    ],
+    [
+      "pineapple"
+    ],
+    [
+      "mango"
+    ],
+    [
+      "pineapple_stew"
+    ],
+    [
+      "tropical_fruit_juice"
+    ]
+  ],
+  "rewards": {
+    "experience": 500
+  },
+  "sends_telemetry_event": true
+}

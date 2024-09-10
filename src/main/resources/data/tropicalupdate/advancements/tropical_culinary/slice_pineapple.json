@@ -1,0 +1,32 @@
+{
+  "parent": "tropicalupdate:tropical_culinary/root",
+  "criteria": {
+    "pineapple_slice": {
+      "conditions": {
+        "recipe_id": "tropicalupdate:pineapple_slice"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.tropical_culinary.pineapple_slice.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "tropicalupdate:pineapple_slice"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.tropical_culinary.pineapple_slice.title"
+    }
+  },
+  "requirements": [
+    [
+      "pineapple_slice"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

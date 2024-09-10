@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "tropicalupdate:block/tropical_bloom_plant_stage0"
+  }
+}

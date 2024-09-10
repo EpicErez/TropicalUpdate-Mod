@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "tropicalupdate:block/amber_block_base"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "slabs",
+  "key": {
+    "#": {
+      "item": "tropicalupdate:tropical_deepslate_tiles"
+    }
+  },
+  "pattern": [
+    "###"
+  ],
+  "result": {
+    "count": 6,
+    "item": "tropicalupdate:tropical_deepslate_tile_slab"
+  },
+  "show_notification": true
+}

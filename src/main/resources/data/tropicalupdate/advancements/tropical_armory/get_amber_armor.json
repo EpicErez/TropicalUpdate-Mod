@@ -1,0 +1,86 @@
+{
+  "parent": "tropicalupdate:tropical_armory/get_amber",
+  "criteria": {
+    "amber_boots": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tropicalupdate:amber_boots"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "amber_leggings": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tropicalupdate:amber_leggings"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "amber_chestplate": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tropicalupdate:amber_chestplate"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "amber_helmet": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tropicalupdate:amber_helmet"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.tropical_armory.get_amber_armor.description"
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "item": "tropicalupdate:amber_chestplate"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.tropical_armory.get_amber_armor.title"
+    }
+  },
+  "requirements": [
+    [
+      "amber_helmet"
+    ],
+    [
+      "amber_chestplate"
+    ],
+    [
+      "amber_leggings"
+    ],
+    [
+      "amber_boots"
+    ]
+  ],
+  "rewards": {
+    "experience": 700
+  },
+  "sends_telemetry_event": true
+}

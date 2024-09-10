@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:diamond_shovel",
+    "minecraft:stone_shovel",
+    "minecraft:golden_shovel",
+    "minecraft:netherite_shovel",
+    "tropicalupdate:mithril_shovel",
+    "tropicalupdate:topaz_shovel",
+    "tropicalupdate:amber_shovel",
+    "tropicalupdate:amber_netherite_shovel",
+    "minecraft:wooden_shovel",
+    "minecraft:iron_shovel"
+  ]
+}

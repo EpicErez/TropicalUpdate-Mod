@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_column",
+  "textures": {
+    "end": "tropicalupdate:block/mango_log_top",
+    "side": "tropicalupdate:block/mango_log"
+  }
+}

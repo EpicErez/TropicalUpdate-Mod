@@ -1,0 +1,86 @@
+{
+  "parent": "tropicalupdate:tropical_armory/get_amber_tools",
+  "criteria": {
+    "amber_netherite_sword": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tropicalupdate:amber_netherite_sword"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "amber_netherite_pickaxe": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tropicalupdate:amber_netherite_pickaxe"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "amber_netherite_axe": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tropicalupdate:amber_netherite_axe"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "amber_netherite_shovel": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tropicalupdate:amber_netherite_shovel"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.tropical_armory.get_amber_netherite_tools.description"
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "item": "tropicalupdate:amber_netherite_pickaxe"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.tropical_armory.get_amber_netherite_tools.title"
+    }
+  },
+  "requirements": [
+    [
+      "amber_netherite_sword"
+    ],
+    [
+      "amber_netherite_pickaxe"
+    ],
+    [
+      "amber_netherite_axe"
+    ],
+    [
+      "amber_netherite_shovel"
+    ]
+  ],
+  "rewards": {
+    "experience": 800
+  },
+  "sends_telemetry_event": true
+}

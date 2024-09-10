@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "doors",
+  "key": {
+    "#": {
+      "item": "tropicalupdate:citrus_petal"
+    }
+  },
+  "pattern": [
+    "#"
+  ],
+  "result": {
+    "count": 1,
+    "item": "minecraft:lime_dye"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "tropicalupdate:block/polished_tropical_deepslate"
+  }
+}

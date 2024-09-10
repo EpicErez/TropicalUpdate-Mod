@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "planks",
+  "ingredients": [
+    {
+      "item": "tropicalupdate:stripped_azure_wood"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "tropicalupdate:azure_planks"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "tropicalupdate:block/polished_tropical_deepslate_slab"
+    },
+    "type=double": {
+      "model": "tropicalupdate:block/polished_tropical_deepslate"
+    },
+    "type=top": {
+      "model": "tropicalupdate:block/polished_tropical_deepslate_slab_top"
+    }
+  }
+}

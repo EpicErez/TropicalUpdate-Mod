@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:stone",
+    "minecraft:granite",
+    "minecraft:diorite",
+    "minecraft:andesite",
+    "minecraft:tuff",
+    "tropicalupdate:tropical_stone",
+    "tropicalupdate:tropical_deepslate",
+    "minecraft:deepslate"
+  ]
+}

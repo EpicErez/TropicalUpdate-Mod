@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:beetroots",
+    "minecraft:carrots",
+    "minecraft:potatoes",
+    "minecraft:wheat",
+    "minecraft:melon_stem",
+    "minecraft:pumpkin_stem",
+    "tropicalupdate:tropical_carrot_block",
+    "tropicalupdate:tropical_potato_block",
+    "tropicalupdate:blue_raspberry_crop",
+    "tropicalupdate:pineapple_block",
+    "tropicalupdate:tropical_wheat_block",
+    "minecraft:torchflower_crop",
+    "minecraft:pitcher_crop"
+  ]
+}

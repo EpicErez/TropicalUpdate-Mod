@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "mithril_ingot",
+  "ingredients": [
+    {
+      "item": "tropicalupdate:amber_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "tropicalupdate:amber"
+  }
+}

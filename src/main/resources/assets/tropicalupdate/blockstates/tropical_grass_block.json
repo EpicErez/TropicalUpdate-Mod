@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "snowy=false": [
+      {
+        "model": "tropicalupdate:block/tropical_grass_block"
+      },
+      {
+        "model": "tropicalupdate:block/tropical_grass_block",
+        "y": 90
+      },
+      {
+        "model": "tropicalupdate:block/tropical_grass_block",
+        "y": 180
+      },
+      {
+        "model": "tropicalupdate:block/tropical_grass_block",
+        "y": 270
+      }
+    ]
+  }
+}

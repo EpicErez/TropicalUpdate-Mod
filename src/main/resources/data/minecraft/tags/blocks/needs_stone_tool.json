@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "tropicalupdate:tropical_iron_ore",
+    "tropicalupdate:tropical_deepslate_iron_ore",
+    "tropicalupdate:tropical_lapis_ore",
+    "tropicalupdate:tropical_deepslate_lapis_ore"
+  ]
+}

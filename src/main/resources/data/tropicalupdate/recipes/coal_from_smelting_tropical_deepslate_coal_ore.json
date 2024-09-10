@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 2,
+  "group": "coal",
+  "ingredient": {
+    "item": "tropicalupdate:tropical_deepslate_coal_ore"
+  },
+  "result": "minecraft:coal"
+}

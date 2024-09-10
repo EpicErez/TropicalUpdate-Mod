@@ -1,0 +1,62 @@
+{
+  "parent": "tropicalupdate:tropical_armory/get_topaz",
+  "criteria": {
+    "topaz_boots": {
+      "conditions": {
+        "recipe_id": "tropicalupdate:topaz_boots"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    },
+    "topaz_leggings": {
+      "conditions": {
+        "recipe_id": "tropicalupdate:topaz_leggings"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    },
+    "topaz_chestplate": {
+      "conditions": {
+        "recipe_id": "tropicalupdate:topaz_chestplate"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    },
+    "topaz_helmet": {
+      "conditions": {
+        "recipe_id": "tropicalupdate:topaz_helmet"
+      },
+      "trigger": "minecraft:recipe_crafted"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.tropical_armory.get_topaz_armor.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "tropicalupdate:topaz_helmet"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.tropical_armory.get_topaz_armor.title"
+    }
+  },
+  "requirements": [
+    [
+      "topaz_boots"
+    ],
+    [
+      "topaz_leggings"
+    ],
+    [
+      "topaz_chestplate"
+    ],
+    [
+      "topaz_helmet"
+    ]
+  ],
+  "rewards": {
+    "experience": 200
+  },
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "trapdoors",
+  "key": {
+    "#": {
+      "item": "tropicalupdate:azure_planks"
+    }
+  },
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 2,
+    "item": "tropicalupdate:azure_trapdoor"
+  },
+  "show_notification": true
+}

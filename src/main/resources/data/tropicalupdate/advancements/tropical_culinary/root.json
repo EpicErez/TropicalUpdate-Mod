@@ -1,0 +1,93 @@
+{
+  "criteria": {
+    "pineapple": {
+      "conditions": {
+        "item": {
+          "items": [
+            "tropicalupdate:pineapple"
+          ]
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "mango": {
+      "conditions": {
+        "item": {
+          "items": [
+            "tropicalupdate:mango"
+          ]
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "blue_raspberry": {
+      "conditions": {
+        "item": {
+          "items": [
+            "tropicalupdate:blue_raspberry"
+          ]
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    },
+    "tropical_farmland": {
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "tropicalupdate:tropical_grass_block"
+                ]
+              }
+            }
+          },
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "minecraft:wooden_hoe",
+                "minecraft:golden_hoe",
+                "minecraft:stone_hoe",
+                "minecraft:iron_hoe",
+                "minecraft:diamond_hoe",
+                "tropicalupdate:mithril_hoe",
+                "tropicalupdate:topaz_hoe",
+                "tropicalupdate:amber_hoe",
+                "tropicalupdate:amber_netherite_hoe",
+                "minecraft:netherite_hoe"
+              ]
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:item_used_on_block"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "tropicalupdate:textures/gui/advancements/backgrounds/tropical_culinary.png",
+    "description": {
+      "translate": "advancements.tropical_culinary.root.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "tropicalupdate:pineapple"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "advancements.tropical_culinary.root.title"
+    }
+  },
+  "requirements": [
+    [
+      "pineapple",
+      "mango",
+      "blue_raspberry",
+      "tropical_farmland"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_column",
+  "textures": {
+    "end": "tropicalupdate:block/azure_log_top",
+    "side": "tropicalupdate:block/azure_log"
+  }
+}

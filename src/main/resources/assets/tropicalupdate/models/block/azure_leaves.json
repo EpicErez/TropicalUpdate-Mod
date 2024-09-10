@@ -1,0 +1,6 @@
+{
+  "parent": "block/leaves",
+  "textures": {
+    "all": "tropicalupdate:block/azure_leaves"
+  }
+}

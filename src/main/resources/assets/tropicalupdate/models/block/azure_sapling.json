@@ -1,0 +1,6 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "tropicalupdate:block/azure_sapling"
+  }
+}

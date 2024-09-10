@@ -1,0 +1,86 @@
+{
+  "parent": "tropicalupdate:tropical_armory/get_amber",
+  "criteria": {
+    "amber_sword": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tropicalupdate:amber_sword"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "amber_pickaxe": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tropicalupdate:amber_pickaxe"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "amber_axe": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tropicalupdate:amber_axe"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "amber_shovel": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tropicalupdate:amber_shovel"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.tropical_armory.get_amber_tools.description"
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "item": "tropicalupdate:amber_pickaxe"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.tropical_armory.get_amber_tools.title"
+    }
+  },
+  "requirements": [
+    [
+      "amber_sword"
+    ],
+    [
+      "amber_pickaxe"
+    ],
+    [
+      "amber_axe"
+    ],
+    [
+      "amber_shovel"
+    ]
+  ],
+  "rewards": {
+    "experience": 600
+  },
+  "sends_telemetry_event": true
+}

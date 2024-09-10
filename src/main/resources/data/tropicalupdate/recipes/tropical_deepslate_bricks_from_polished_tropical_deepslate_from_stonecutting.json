@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "tropicalupdate:polished_tropical_deepslate"
+  },
+  "result": "tropicalupdate:tropical_deepslate_bricks"
+}

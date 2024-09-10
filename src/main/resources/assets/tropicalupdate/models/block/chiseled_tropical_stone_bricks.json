@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_column",
+  "textures": {
+    "end": "tropicalupdate:block/chiseled_tropical_stone_bricks_top",
+    "side": "tropicalupdate:block/chiseled_tropical_stone_bricks"
+  }
+}

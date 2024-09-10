@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 8,
+  "group": "coal",
+  "ingredient": {
+    "item": "tropicalupdate:tropical_deepslate_coal_ore"
+  },
+  "result": "minecraft:coal"
+}

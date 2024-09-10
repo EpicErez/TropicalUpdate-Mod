@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "tropicalupdate:pineapple_slice"
+    },
+    "B": {
+      "item": "tropicalupdate:blue_raspberry"
+    },
+    "C": {
+      "item": "minecraft:wheat"
+    },
+    "E": {
+      "item": "minecraft:egg"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "BEB",
+    "CCC"
+  ],
+  "result": {
+    "item": "tropicalupdate:pineapple_cake"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "doors",
+  "key": {
+    "#": {
+      "item": "tropicalupdate:turquoise_dye"
+    },
+    "%": {
+      "item": "minecraft:glass"
+    }
+  },
+  "pattern": [
+    "%%%",
+    "%#%",
+    "%%%"
+  ],
+  "result": {
+    "count": 8,
+    "item": "tropicalupdate:turquoise_glass"
+  },
+  "show_notification": true
+}

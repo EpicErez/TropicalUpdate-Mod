@@ -1,0 +1,41 @@
+{
+  "parent": "tropicalupdate:tropical_armory/get_mithril_ingot",
+  "criteria": {
+    "topaz": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tropicalupdate:topaz"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.tropical_armory.get_topaz.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "tropicalupdate:topaz"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.tropical_armory.get_topaz.title"
+    }
+  },
+  "requirements": [
+    [
+      "topaz"
+    ]
+  ],
+  "rewards": {
+    "experience": 50
+  },
+  "sends_telemetry_event": true
+}

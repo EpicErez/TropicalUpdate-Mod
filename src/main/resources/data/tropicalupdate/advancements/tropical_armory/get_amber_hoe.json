@@ -1,0 +1,41 @@
+{
+  "parent": "tropicalupdate:tropical_armory/get_topaz_hoe",
+  "criteria": {
+    "amber_hoe": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tropicalupdate:amber_hoe"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.tropical_armory.get_amber_hoe.description"
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "item": "tropicalupdate:amber_hoe"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.tropical_armory.get_amber_hoe.title"
+    }
+  },
+  "requirements": [
+    [
+      "amber_hoe"
+    ]
+  ],
+  "rewards": {
+    "experience": 500
+  },
+  "sends_telemetry_event": true
+}

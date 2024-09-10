@@ -1,0 +1,41 @@
+{
+  "parent": "tropicalupdate:tropical_armory/root",
+  "criteria": {
+    "mithril_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tropicalupdate:mithril_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.tropical_armory.get_mithril_ingot.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "tropicalupdate:mithril_ingot"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.tropical_armory.get_mithril_ingot.title"
+    }
+  },
+  "requirements": [
+    [
+      "mithril_ingot"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  },
+  "sends_telemetry_event": true
+}

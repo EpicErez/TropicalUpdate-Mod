@@ -1,0 +1,77 @@
+{
+  "criteria": {
+    "mithril_ingot": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tropicalupdate:mithril_ingot"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "amber": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tropicalupdate:amber"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "topaz": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tropicalupdate:topaz"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "raw_mithril": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tropicalupdate:raw_mithril"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "tropicalupdate:textures/gui/advancements/backgrounds/tropical_stone.png",
+    "description": {
+      "translate": "advancements.tropical_armory.root.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "tropicalupdate:topaz_pickaxe"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "advancements.tropical_armory.root.title"
+    }
+  },
+  "requirements": [
+    [
+      "mithril_ingot",
+      "amber",
+      "topaz",
+      "raw_mithril"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

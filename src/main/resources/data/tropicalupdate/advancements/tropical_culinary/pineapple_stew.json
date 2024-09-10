@@ -1,0 +1,39 @@
+{
+  "parent": "tropicalupdate:tropical_culinary/root",
+  "criteria": {
+    "pineapple_stew": {
+      "conditions": {
+        "item": {
+          "items": [
+            "tropicalupdate:pineapple_stew"
+          ]
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.tropical_culinary.pineapple_stew.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "tropicalupdate:pineapple_stew"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.tropical_culinary.pineapple_stew.title"
+    }
+  },
+  "requirements": [
+    [
+      "pineapple_stew"
+    ]
+  ],
+  "rewards": {
+    "experience": 150
+  },
+  "sends_telemetry_event": true
+}

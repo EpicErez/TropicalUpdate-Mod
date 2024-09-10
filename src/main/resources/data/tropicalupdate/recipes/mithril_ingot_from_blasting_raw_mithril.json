@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 2,
+  "group": "mithril_ingot",
+  "ingredient": {
+    "item": "tropicalupdate:raw_mithril"
+  },
+  "result": "tropicalupdate:mithril_ingot"
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "tropicalupdate:block/tropical_stone_bricks"
+  }
+}

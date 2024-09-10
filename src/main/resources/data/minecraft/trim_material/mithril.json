@@ -1,0 +1,12 @@
+{
+  "asset_name": "mithril",
+  "description": {
+    "color": "#ADD8E6",
+    "translate": "trim_material.tropicalupdate.mithril"
+  },
+  "ingredient": "tropicalupdate:mithril_ingot",
+  "item_model_index": 0.8,
+  "override_armor_materials": {
+    "mithril": "mithril_darker"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "tropicalupdate:amber_ore_block",
+    "tropicalupdate:tropical_deepslate_amber_ore_block",
+    "tropicalupdate:amber_block_base"
+  ]
+}

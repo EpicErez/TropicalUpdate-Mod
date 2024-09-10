@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/template_candle",
+  "textures": {
+    "all": "tropicalupdate:block/turquoise_candle",
+    "particle": "tropicalupdate:block/turquoise_candle"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:cobblestone",
+    "minecraft:blackstone",
+    "tropicalupdate:tropical_cobblestone",
+    "tropicalupdate:cobbled_tropical_deepslate",
+    "minecraft:cobbled_deepslate"
+  ]
+}

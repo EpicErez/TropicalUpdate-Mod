@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "trapdoors",
+  "key": {
+    "#": {
+      "item": "tropicalupdate:mithril_ingot"
+    }
+  },
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "result": {
+    "count": 1,
+    "item": "tropicalupdate:mithril_trapdoor"
+  },
+  "show_notification": true
+}

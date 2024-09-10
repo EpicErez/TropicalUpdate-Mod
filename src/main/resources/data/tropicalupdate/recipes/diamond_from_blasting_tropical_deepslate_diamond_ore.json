@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 5,
+  "group": "diamond",
+  "ingredient": {
+    "item": "tropicalupdate:tropical_deepslate_diamond_ore"
+  },
+  "result": "minecraft:diamond"
+}

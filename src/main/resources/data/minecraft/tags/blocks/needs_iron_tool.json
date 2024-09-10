@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "tropicalupdate:mithril_ore",
+    "tropicalupdate:tropical_deepslate_mithril_ore",
+    "tropicalupdate:tropical_diamond_ore",
+    "tropicalupdate:tropical_deepslate_diamond_ore",
+    "tropicalupdate:tropical_gold_ore",
+    "tropicalupdate:tropical_redstone_ore",
+    "tropicalupdate:tropical_deepslate_gold_ore",
+    "tropicalupdate:tropical_deepslate_redstone_ore",
+    "tropicalupdate:raw_mithril_block",
+    "tropicalupdate:mithril_block"
+  ]
+}

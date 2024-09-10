@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "tropicalupdate:block/tropical_stone",
+    "side": "tropicalupdate:block/tropical_stone",
+    "top": "tropicalupdate:block/tropical_stone"
+  }
+}

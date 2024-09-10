@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:diamond_hoe",
+    "minecraft:stone_hoe",
+    "minecraft:golden_hoe",
+    "tropicalupdate:mithril_hoe",
+    "tropicalupdate:topaz_hoe",
+    "tropicalupdate:amber_hoe",
+    "tropicalupdate:amber_netherite_hoe",
+    "minecraft:netherite_hoe",
+    "minecraft:wooden_hoe",
+    "minecraft:iron_hoe"
+  ]
+}

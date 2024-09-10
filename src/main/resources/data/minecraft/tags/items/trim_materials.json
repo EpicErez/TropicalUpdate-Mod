@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:iron_ingot",
+    "minecraft:copper_ingot",
+    "minecraft:gold_ingot",
+    "minecraft:lapis_lazuli",
+    "tropicalupdate:topaz",
+    "tropicalupdate:mithril_ingot",
+    "minecraft:emerald",
+    "minecraft:diamond",
+    "minecraft:netherite_ingot",
+    "minecraft:redstone",
+    "minecraft:quartz",
+    "tropicalupdate:amber",
+    "minecraft:amethyst_shard"
+  ]
+}

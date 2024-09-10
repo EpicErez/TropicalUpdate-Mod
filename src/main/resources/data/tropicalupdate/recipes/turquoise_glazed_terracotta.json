@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "blocks",
+  "cookingtime": 200,
+  "experience": 0.8,
+  "group": "misc",
+  "ingredient": {
+    "item": "tropicalupdate:turquoise_terracotta"
+  },
+  "result": "tropicalupdate:turquoise_glazed_terracotta"
+}

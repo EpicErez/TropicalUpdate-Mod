@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "stained_terracotta",
+  "key": {
+    "#": {
+      "item": "minecraft:terracotta"
+    },
+    "%": {
+      "item": "tropicalupdate:turquoise_dye"
+    }
+  },
+  "pattern": [
+    "###",
+    "#%#",
+    "###"
+  ],
+  "result": {
+    "count": 8,
+    "item": "tropicalupdate:turquoise_terracotta"
+  },
+  "show_notification": true
+}

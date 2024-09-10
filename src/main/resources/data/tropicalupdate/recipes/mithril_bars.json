@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "bars",
+  "key": {
+    "W": {
+      "item": "tropicalupdate:mithril_ingot"
+    }
+  },
+  "pattern": [
+    "WWW",
+    "WWW"
+  ],
+  "result": {
+    "count": 16,
+    "item": "tropicalupdate:mithril_bars"
+  },
+  "show_notification": true
+}

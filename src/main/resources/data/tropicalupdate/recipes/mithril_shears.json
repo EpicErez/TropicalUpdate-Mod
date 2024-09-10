@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "shears",
+  "key": {
+    "#": {
+      "item": "tropicalupdate:mithril_ingot"
+    }
+  },
+  "pattern": [
+    "# ",
+    " #"
+  ],
+  "result": {
+    "count": 1,
+    "item": "tropicalupdate:mithril_shears"
+  },
+  "show_notification": true
+}

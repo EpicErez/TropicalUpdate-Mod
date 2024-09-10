@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "tropicalupdate:block/tropical_deepslate_bricks"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "tropicalupdate:amber"
+  },
+  "base": {
+    "item": "tropicalupdate:topaz_chestplate"
+  },
+  "result": {
+    "item": "tropicalupdate:amber_chestplate"
+  },
+  "template": {
+    "item": "tropicalupdate:amber_upgrade_template"
+  }
+}

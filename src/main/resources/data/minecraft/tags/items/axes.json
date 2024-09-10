@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:diamond_axe",
+    "minecraft:stone_axe",
+    "minecraft:golden_axe",
+    "tropicalupdate:mithril_axe",
+    "tropicalupdate:topaz_axe",
+    "tropicalupdate:amber_axe",
+    "tropicalupdate:amber_netherite_axe",
+    "minecraft:netherite_axe",
+    "minecraft:wooden_axe",
+    "minecraft:iron_axe"
+  ]
+}

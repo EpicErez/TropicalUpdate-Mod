@@ -1,0 +1,42 @@
+{
+  "parent": "tropicalupdate:tropical_adventuring/tropical_valley",
+  "criteria": {
+    "sunken_chamber": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "tropicalupdate:sunken_chamber"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.tropical_adventuring.find_sunken_chamber.description"
+    },
+    "frame": "goal",
+    "hidden": false,
+    "icon": {
+      "item": "tropicalupdate:tropical_deepslate_bricks"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.tropical_adventuring.find_sunken_chamber.title"
+    }
+  },
+  "requirements": [
+    [
+      "sunken_chamber"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

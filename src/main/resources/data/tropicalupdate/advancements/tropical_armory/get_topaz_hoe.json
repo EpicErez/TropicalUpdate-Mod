@@ -1,0 +1,41 @@
+{
+  "parent": "tropicalupdate:tropical_armory/root",
+  "criteria": {
+    "topaz_hoe": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tropicalupdate:topaz_hoe"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.tropical_armory.get_topaz_hoe.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "tropicalupdate:topaz_hoe"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.tropical_armory.get_topaz_hoe.title"
+    }
+  },
+  "requirements": [
+    [
+      "topaz_hoe"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  },
+  "sends_telemetry_event": true
+}

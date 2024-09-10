@@ -1,0 +1,42 @@
+{
+  "criteria": {
+    "minecraft:plains": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "minecraft:plains"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "tropicalupdate:textures/gui/advancements/backgrounds/tropical_grass.png",
+    "description": {
+      "translate": "advancements.tropical_adventuring.root.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "tropicalupdate:azure_log"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "advancements.tropical_adventuring.root.title"
+    }
+  },
+  "requirements": [
+    [
+      "minecraft:plains"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

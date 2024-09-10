@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:ceiling_hanging_signs",
+    "#minecraft:wall_hanging_signs",
+    "tropicalupdate:azure_hanging_sign",
+    "tropicalupdate:mango_hanging_sign"
+  ]
+}

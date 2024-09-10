@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:bamboo_jungle",
+    "minecraft:jungle",
+    "tropicalupdate:mango_forest",
+    "minecraft:sparse_jungle"
+  ]
+}

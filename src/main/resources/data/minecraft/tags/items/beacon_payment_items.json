@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:netherite_ingot",
+    "minecraft:emerald",
+    "minecraft:diamond",
+    "tropicalupdate:mithril_ingot",
+    "tropicalupdate:amber",
+    "tropicalupdate:topaz",
+    "minecraft:gold_ingot",
+    "minecraft:iron_ingot"
+  ]
+}

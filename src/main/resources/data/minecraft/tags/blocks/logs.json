@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:logs_that_burn",
+    "#minecraft:crimson_stems",
+    "tropicalupdate:mango_log",
+    "tropicalupdate:azure_log",
+    "#minecraft:warped_stems"
+  ]
+}

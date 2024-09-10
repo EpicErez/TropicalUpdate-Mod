@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:grass_block",
+    "minecraft:air",
+    "tropicalupdate:mango_log",
+    "tropicalupdate:mango_leaves",
+    "tropicalupdate:mango_fruit_leaves",
+    "#minecraft:leaves",
+    "#minecraft:logs"
+  ]
+}

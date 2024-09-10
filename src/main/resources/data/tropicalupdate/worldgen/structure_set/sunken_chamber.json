@@ -1,0 +1,16 @@
+{
+  "structures": [
+    {
+      "structure": "tropicalupdate:sunken_chamber",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "frequency": 0.0043,
+    "frequency_reduction_method": "legacy_type_3",
+    "salt": 1642136474,
+    "separation": 0,
+    "spacing": 1
+  }
+}

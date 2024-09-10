@@ -1,0 +1,41 @@
+{
+  "parent": "tropicalupdate:tropical_armory/get_topaz",
+  "criteria": {
+    "amber": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tropicalupdate:amber"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.tropical_armory.get_amber.description"
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "item": "tropicalupdate:amber"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.tropical_armory.get_amber.title"
+    }
+  },
+  "requirements": [
+    [
+      "amber"
+    ]
+  ],
+  "rewards": {
+    "experience": 300
+  },
+  "sends_telemetry_event": true
+}

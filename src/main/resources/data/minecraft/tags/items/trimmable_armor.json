@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "tropicalupdate:mithril_helmet",
+    "tropicalupdate:mithril_chestplate",
+    "tropicalupdate:mithril_leggings",
+    "tropicalupdate:mithril_boots",
+    "tropicalupdate:topaz_helmet",
+    "tropicalupdate:topaz_chestplate",
+    "tropicalupdate:topaz_leggings",
+    "tropicalupdate:topaz_boots",
+    "tropicalupdate:amber_helmet",
+    "tropicalupdate:amber_chestplate",
+    "tropicalupdate:amber_leggings",
+    "tropicalupdate:amber_boots",
+    "tropicalupdate:amber_netherite_helmet",
+    "tropicalupdate:amber_netherite_chestplate",
+    "tropicalupdate:amber_netherite_leggings",
+    "tropicalupdate:amber_netherite_boots"
+  ]
+}

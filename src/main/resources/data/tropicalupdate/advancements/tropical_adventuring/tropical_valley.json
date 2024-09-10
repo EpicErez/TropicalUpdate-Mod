@@ -1,0 +1,45 @@
+{
+  "parent": "tropicalupdate:tropical_adventuring/root",
+  "criteria": {
+    "tropicalupdate:tropical_valley": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "biome": "tropicalupdate:tropical_valley"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.tropical_adventuring.tropical_valley.description"
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "item": "tropicalupdate:tropical_grass_block"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.tropical_adventuring.tropical_valley.title"
+    }
+  },
+  "requirements": [
+    [
+      "tropicalupdate:tropical_valley"
+    ]
+  ],
+  "rewards": {
+    "experience": 600
+  },
+  "sends_telemetry_event": true
+}

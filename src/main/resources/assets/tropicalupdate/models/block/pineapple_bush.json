@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cross",
+  "textures": {
+    "cross": "tropicalupdate:block/pineapple_bush"
+  }
+}

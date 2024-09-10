@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "wooden_fence",
+  "key": {
+    "#": {
+      "item": "minecraft:torch"
+    },
+    "W": {
+      "item": "tropicalupdate:mithril_nugget"
+    }
+  },
+  "pattern": [
+    "WWW",
+    "W#W",
+    "WWW"
+  ],
+  "result": {
+    "count": 1,
+    "item": "tropicalupdate:mithril_lantern"
+  },
+  "show_notification": true
+}

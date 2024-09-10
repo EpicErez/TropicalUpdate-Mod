@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "wooden_fence",
+  "key": {
+    "#": {
+      "item": "tropicalupdate:topaz"
+    },
+    "W": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "## ",
+    "#W ",
+    " W "
+  ],
+  "result": {
+    "count": 1,
+    "item": "tropicalupdate:topaz_axe"
+  },
+  "show_notification": true
+}

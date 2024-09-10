@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:signs",
+    "#minecraft:all_hanging_signs",
+    "tropicalupdate:azure_standing_sign",
+    "tropicalupdate:mango_standing_sign",
+    "tropicalupdate:azure_wall_sign",
+    "tropicalupdate:mango_wall_sign"
+  ]
+}

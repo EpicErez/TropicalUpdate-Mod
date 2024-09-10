@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "slabs",
+  "key": {
+    "#": {
+      "item": "tropicalupdate:mithril_nugget"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "item": "tropicalupdate:mithril_ingot"
+  },
+  "show_notification": true
+}

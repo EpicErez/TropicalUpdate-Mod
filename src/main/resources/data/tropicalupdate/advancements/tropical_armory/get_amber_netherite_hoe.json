@@ -1,0 +1,41 @@
+{
+  "parent": "tropicalupdate:tropical_armory/get_amber_hoe",
+  "criteria": {
+    "amber_netherite_hoe": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tropicalupdate:amber_netherite_hoe"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "translate": "advancements.tropical_armory.get_amber_netherite_hoe.description"
+    },
+    "frame": "challenge",
+    "hidden": false,
+    "icon": {
+      "item": "tropicalupdate:amber_netherite_hoe"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.tropical_armory.get_amber_netherite_hoe.title"
+    }
+  },
+  "requirements": [
+    [
+      "amber_netherite_hoe"
+    ]
+  ],
+  "rewards": {
+    "experience": 1000
+  },
+  "sends_telemetry_event": true
+}

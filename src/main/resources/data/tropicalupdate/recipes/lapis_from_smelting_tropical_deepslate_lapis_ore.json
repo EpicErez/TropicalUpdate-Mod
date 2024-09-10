@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 5,
+  "group": "lapis",
+  "ingredient": {
+    "item": "tropicalupdate:tropical_deepslate_lapis_ore"
+  },
+  "result": "minecraft:lapis_lazuli"
+}

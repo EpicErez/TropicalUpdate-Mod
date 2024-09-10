@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 2,
+  "group": "iron_ingot",
+  "ingredient": {
+    "item": "tropicalupdate:tropical_deepslate_iron_ore"
+  },
+  "result": "minecraft:iron_ingot"
+}

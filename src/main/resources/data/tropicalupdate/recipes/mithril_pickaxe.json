@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "wooden_fence",
+  "key": {
+    "#": {
+      "item": "tropicalupdate:mithril_ingot"
+    },
+    "W": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "###",
+    " W ",
+    " W "
+  ],
+  "result": {
+    "count": 1,
+    "item": "tropicalupdate:mithril_pickaxe"
+  },
+  "show_notification": true
+}

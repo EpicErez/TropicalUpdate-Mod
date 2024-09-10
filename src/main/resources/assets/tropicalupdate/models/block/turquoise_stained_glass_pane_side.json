@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/template_glass_pane_side",
+  "textures": {
+    "edge": "tropicalupdate:block/turquoise_stained_glass_pane_top",
+    "pane": "tropicalupdate:block/turquoise_glass"
+  }
+}

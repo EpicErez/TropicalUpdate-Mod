@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "tropicalupdate:cobbled_tropical_deepslate"
+  },
+  "result": "tropicalupdate:cobbled_tropical_deepslate_stairs"
+}

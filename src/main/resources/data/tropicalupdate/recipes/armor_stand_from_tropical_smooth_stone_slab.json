@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "doors",
+  "key": {
+    "#": {
+      "item": "tropicalupdate:tropical_smooth_stone_slab"
+    },
+    "%": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "%%%",
+    " % ",
+    "%#%"
+  ],
+  "result": {
+    "count": 1,
+    "item": "minecraft:armor_stand"
+  },
+  "show_notification": true
+}
